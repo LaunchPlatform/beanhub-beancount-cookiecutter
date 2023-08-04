@@ -1,0 +1,8 @@
+1792-01-01 commodity USD
+  name: "US Dollar"
+2010-05-22 commodity BTC
+  name: "Bitcoin"
+2015-07-30 commodity ETC
+  name: "Ethereum"
+2015-07-30 commodity XYZ.HOUR
+  name: "Work hours for contracting project XYZ"

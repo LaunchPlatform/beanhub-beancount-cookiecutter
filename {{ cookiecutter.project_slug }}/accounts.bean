@@ -1,0 +1,31 @@
+* Assets
+
+1970-01-01 open Assets:Bank:US:Mercury:Checking USD
+1970-01-01 open Assets:Bank:US:Mercury:Saving USD
+1970-01-01 open Assets:Crypto:US:Coinbase BTC,ETH
+1970-01-01 open Assets:Cash USD
+1970-01-01 open Assets:AccountsReceivable:XYZ XYZ.HOUR
+
+* Liabilities
+
+1970-01-01 open Liabilities:CreditCard:US:ChaseSapphirePreferred USD
+1970-01-01 open Liabilities:CreditCard:US:AMEXAmazonPrime USD
+
+* Expenses
+
+1970-01-01 open Expenses:Office USD
+1970-01-01 open Expenses:Office:Supplies USD
+1970-01-01 open Expenses:Office:Supplies:Software USD
+1970-01-01 open Expenses:Office:Supplies:SoftwareAsService USD
+1970-01-01 open Expenses:HealthInsurance USD
+1970-01-01 open Expenses:EmployeeSalary USD
+1970-01-01 open Expenses:Contractor USD
+
+* Income
+
+1970-01-01 open Income:Contracting:XYZ XYZ.HOUR
+1970-01-01 open Income:Salary USD
+
+* Equity
+
+1970-01-01 open Equity:CapitalContribution USD
