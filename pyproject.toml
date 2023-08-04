@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "beanhub-repo-template"
+version = "0.1.0"
+description = ""
+authors = ["Fang-Pen Lin <fangpen@launchplatform.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "beanhub_repo_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cookiecutter = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
