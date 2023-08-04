@@ -1,0 +1,35 @@
+{% now 'utc' - 'days=7', '%Y-%m-%d' %} * "Initial checking account balance"
+  Assets:Bank:US:Mercury:Checking     5,200.00 USD
+  Equity:OpeningBalances          
+
+{% now 'utc' - 'days=7', '%Y-%m-%d' %} * "Initial saving account balance"
+  Assets:Bank:US:Mercury:Saving       1,500.00 USD
+  Equity:OpeningBalances          
+
+{% now 'utc' - 'days=6', '%Y-%m-%d' %} * "Monoline subscription fee"
+  Liabilities:CreditCard:US:ChaseSapphirePreferred           -2.49 USD
+  Expenses:Office:Supplies:SaaS
+
+{% now 'utc' - 'days=5', '%Y-%m-%d' %} * "PolisNetwork subscription fee"
+  Liabilities:CreditCard:US:ChaseSapphirePreferred          -14.99 USD
+  Expenses:Office:Supplies:SaaS
+
+{% now 'utc' - 'days=5', '%Y-%m-%d' %} * "BeanHub subscription fee"
+  Liabilities:CreditCard:US:ChaseSapphirePreferred          -9.00 USD
+  Expenses:Office:Supplies:SaaS
+
+{% now 'utc' - 'days=4', '%Y-%m-%d' %} * "Salary ACH deposit"
+  Income:Salary                                          -4,000.00 USD
+  Assets:Bank:US:Mercury:Checking
+
+{% now 'utc' - 'days=3', '%Y-%m-%d' %} * "Hours spent on the software development project for client XYZ"
+  Assets:AccountsReceivable:Contracting:XYZ     14  XYZ.HOUR @ 200 USD
+  Income:Contracting:XYZ
+
+{% now 'utc' - 'days=2', '%Y-%m-%d' %} * "Hours spent on the software development project for client XYZ"
+  Assets:AccountsReceivable:Contracting:XYZ     10 XYZ.HOUR @ 200 USD
+  Income:Contracting:XYZ
+
+{% now 'utc' - 'days=1', '%Y-%m-%d' %} * "Hours spent on the software development project for client XYZ"
+  Assets:AccountsReceivable:Contracting:XYZ     13 XYZ.HOUR @ 200 USD
+  Income:Contracting:XYZ
