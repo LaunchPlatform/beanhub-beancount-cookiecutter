@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "beanhub-repo-cookiecutter"
+name = "beanhub-beancount-repo-cookiecutter"
 version = "0.1.0"
 description = ""
 authors = ["Fang-Pen Lin <fangpen@launchplatform.com>"]
