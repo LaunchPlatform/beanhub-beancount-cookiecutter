@@ -1,6 +1,6 @@
-option "title" "My Book"
-option "operating_currency" "USD"
-
 include "accounts.bean"
-include "commodities.bean"
 include "books/books.bean"
+include "commodities.bean"
+
+option "operating_currency" "USD"
+option "title" "My Book"
