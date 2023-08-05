@@ -4,7 +4,7 @@
 1970-01-01 open Assets:Bank:US:Mercury:Saving USD
 1970-01-01 open Assets:Crypto:US:Coinbase BTC,ETH
 1970-01-01 open Assets:Cash USD
-1970-01-01 open Assets:AccountsReceivable:XYZ XYZ.HOUR
+1970-01-01 open Assets:AccountsReceivable:Contracting:XYZ XYZ.HOUR
 
 * Liabilities
 
@@ -24,7 +24,7 @@
 
 * Income
 
-1970-01-01 open Income:Contracting:XYZ XYZ.HOUR
+1970-01-01 open Income:Contracting:XYZ USD
 1970-01-01 open Income:Salary USD
 
 * Equity
