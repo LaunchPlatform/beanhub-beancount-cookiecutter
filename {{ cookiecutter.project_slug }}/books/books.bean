@@ -1,1 +1,1 @@
-include "{{ cookiecutter.year }}.bean"
+include "2*.bean"
