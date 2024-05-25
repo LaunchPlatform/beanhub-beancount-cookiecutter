@@ -48,4 +48,10 @@ You can download this sample CSV file by clicking the "Import" button on the lef
 TODO:
 
 Then click "Upload file" and choose the CSV file you just downloaded then upload.
+After that, you will be asked to review the uploaded file.
+Press the "Import" button, and here you go!
+
+TODO:
+
+You just imported more transactions from the bank account CSV file with a few clicks!
 Please read our blog article to learn more about it.
