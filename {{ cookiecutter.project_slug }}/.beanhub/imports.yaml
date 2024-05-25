@@ -1,4 +1,4 @@
-{% raw %}
+{% raw -%}
 context:
   routine_expenses:
     "Amazon Web Services":
