@@ -1,3 +1,4 @@
+{% raw %}
 context:
   routine_expenses:
     "Amazon Web Services":
@@ -101,3 +102,4 @@ imports:
         - Mercury Checking xx1234
     actions:
       - type: ignore
+{% endraw %}
