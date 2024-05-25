@@ -33,3 +33,27 @@
 {% now 'utc' - 'days=1', '%Y-%m-%d' %} * "Hours spent on the software development project for client XYZ"
   Assets:AccountsReceivable:Contracting:XYZ                                   13 XYZ.HOUR @ 200 USD
   Income:Contracting:XYZ
+
+2024-01-01 * "Digital Ocean"
+  import-id: "import-data/mercury/2024.csv:-1"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                   -8.57 USD
+  Expenses:Engineering:ServiceSubscription                                  8.57 USD
+
+2024-01-03 * "Amazon Web Services"
+  import-id: "import-data/mercury/2024.csv:-3"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                 -853.64 USD
+  Expenses:Engineering:Servers:AWS                                        853.64 USD
+
+2024-01-03 * "Adobe"
+  import-id: "import-data/mercury/2024.csv:-2"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                  -54.99 USD
+  Expenses:Design:ServiceSubscription                                      54.99 USD
+
+2024-01-04 * "Gusto subscription fee"
+  import-id: "import-data/mercury/2024.csv:-4"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                     -46 USD
+  Expenses:Office:Supplies:SoftwareAsService                                  46 USD
