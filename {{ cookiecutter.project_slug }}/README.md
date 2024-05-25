@@ -30,7 +30,7 @@ Let's see what else you can achieve with it!
 
 Input repetitive transactions manually are time-consuming and error-prone.
 BeanHub allows you to define your custom forms for generating transactions.
-We have already provided a sample form in the [.beanhub/forms.yaml file](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/forms.yaml) for you.
+We have already provided a sample form for you in the [.beanhub/forms.yaml file](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/forms.yaml).
 You can try it out by clicking the **Forms** button on the left-hand side menu, then clicking the form **Hours spent on XYZ contracting project**, or simply [clicking here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/form/add-xyz-hours).
 
 TODO: insert form screenshot
@@ -49,6 +49,7 @@ Please read our blog article [Automating Beancount data input with custom forms 
 
 Importing data from various sources, such as your bank or credit accounts, is one major pain point of using plain-text accounting books like Beancount.
 We made it easier than ever for you to import various sources with rule-based automation.
+We have already provided you a sample file at [].beanhub/imports.yaml](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/imports.yaml) in this repository.
 You can download this sample CSV file by clicking the **Import** button on the left-hand side menu and then clicking **Upload Files.**
 
 TODO:
