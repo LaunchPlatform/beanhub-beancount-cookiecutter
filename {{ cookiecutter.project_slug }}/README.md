@@ -30,6 +30,7 @@ Let's see what else you can achieve with it!
 
 Input repetitive transactions manually are time-consuming and error-prone.
 BeanHub allows you to define your custom forms for generating transactions.
+We have already provided a sample form in the [.beanhub/forms.yaml file](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/forms.yaml) for you.
 You can try it out by clicking the **Forms** button on the left-hand side menu, then clicking the form **Hours spent on XYZ contracting project**, or simply [clicking here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/form/add-xyz-hours).
 
 TODO: insert form screenshot
