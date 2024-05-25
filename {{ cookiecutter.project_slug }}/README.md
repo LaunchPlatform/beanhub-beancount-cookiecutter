@@ -1,4 +1,4 @@
-# {{ project_slug }}
+# {{ cookiecutter.project_slug }}
 
 Hi there! 😄👋
 
@@ -11,10 +11,10 @@ First, to clone your repository locally, you can create an access token set with
 Next, You can clone your repository locally by running:
 
 ```bash
-git clone https://app.beanhub.io/repos/{{ username }}/{{ project_slug }}.git
+git clone https://app.beanhub.io/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}.git
 ```
 
-The username is `{{ username }}` as your BeanHub account, and the password should be the access token's secret key value.
+The username is `{{ cookiecutter.username }}` as your BeanHub account, and the password should be the access token's secret key value.
 
 You can modify your accounting book locally, commit and push it to BeanHub. See what happens:
 
@@ -30,7 +30,7 @@ Let's see what else you can achieve with it!
 
 Input repetitive transactions manually are time-consuming and error-prone.
 BeanHub allows you to define your custom forms for generating transactions.
-You can try it out by clicking the **Forms** button on the left-hand side menu, then clicking the form **Hours spent on XYZ contracting project**, or simply [clicking here](/repos/{{ username }}/{{ project_slug }}/form/add-xyz-hours).
+You can try it out by clicking the **Forms** button on the left-hand side menu, then clicking the form **Hours spent on XYZ contracting project**, or simply [clicking here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/form/add-xyz-hours).
 
 TODO: insert form screenshot
 
