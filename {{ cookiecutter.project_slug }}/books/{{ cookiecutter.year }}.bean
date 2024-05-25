@@ -22,6 +22,30 @@
   Assets:Bank:US:Mercury                                                     -46 USD
   Expenses:Office:Supplies:SoftwareAsService                                  46 USD
 
+2024-01-07 * "Netlify"
+  import-id: "import-data/mercury/2024.csv:-5"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                     -38 USD
+  Expenses:Engineering:ServiceSubscription                                    38 USD
+
+2024-01-08 * "American Express Amazon Prime credit card payment"
+  import-id: "import-data/mercury/2024.csv:-6"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                 -345.67 USD
+  Liabilities:CreditCard:US:AMEXAmazonPrime                               345.67 USD
+
+2024-01-12 * "Microsoft 365 Apps for Business Subscription"
+  import-id: "import-data/mercury/2024.csv:-7"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                   -8.25 USD
+  Expenses:Office:Supplies:SoftwareAsService                                8.25 USD
+
+2024-01-15 * "Circleci"
+  import-id: "import-data/mercury/2024.csv:-8"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                     -30 USD
+  Expenses:Engineering:ServiceSubscription                                    30 USD
+
 {% now 'utc' - 'days=7', '%Y-%m-%d' %} * "Initial checking account balance"
   Assets:Bank:US:Mercury:Checking                                       5,200.00 USD
   Equity:OpeningBalances
