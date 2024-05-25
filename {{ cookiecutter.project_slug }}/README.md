@@ -63,7 +63,7 @@ You can try it out by clicking the **Forms** button on the left-hand side menu, 
 
 After you submit the form, a new transaction will be added in a Git commit based on your input.
 
-TODO:
+<img src="https://raw.githubusercontent.com/LaunchPlatform/beanhub-beancount-cookiecutter/master/assets/beanhub-form-git-diff.png" style="max-width: 600px">
 
 Please read our blog article [Automating Beancount data input with custom forms makes your life 10 times easier!](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
 
