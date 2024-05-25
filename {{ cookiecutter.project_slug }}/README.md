@@ -40,7 +40,9 @@ TODO:
 
 Please read our blog article to learn more about it.
 
-TODO:
+<a href="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/">
+    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png">
+</a>
 
 ## Import
 
