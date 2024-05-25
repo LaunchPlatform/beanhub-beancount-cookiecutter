@@ -50,6 +50,11 @@ Please read our blog article [Automating Beancount data input with custom forms 
 Importing data from various sources, such as your bank or credit accounts, is one major pain point of using plain-text accounting books like Beancount.
 We made it easier than ever for you to import various sources with rule-based automation.
 We have already provided you a sample file at [.beanhub/imports.yaml](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/imports.yaml) in this repository.
+
+You can download this [sample CSV file here](#).
+To upload and import it, click the **Import** button on the left-hand side menu and then click **Upload Files**.
+Or you can [click here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/import/upload-files/master).
+
 You can download this sample CSV file by clicking the **Import** button on the left-hand side menu and then clicking **Upload Files.**
 
 TODO:
