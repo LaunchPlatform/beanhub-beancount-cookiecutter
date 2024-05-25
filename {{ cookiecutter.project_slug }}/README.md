@@ -49,7 +49,7 @@ You just imported transactions from the bank account CSV file with a few clicks!
 Please read our blog article [FIXME](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
 
 <a href="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/">
-    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png">
+    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png" style="max-width: 600px">
 </a>
 
 ## Forms
@@ -68,7 +68,7 @@ TODO:
 Please read our blog article [Automating Beancount data input with custom forms makes your life 10 times easier!](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
 
 <a href="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/">
-    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png">
+    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png" style="max-width: 600px">
 </a>
 
 
@@ -84,7 +84,7 @@ To access the API, you need to create an access token on the access token manage
 Please read our blog article [New API access feature for reading and writing Beancount data easily](https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/) to learn more about it.
 
 <a href="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/">
-    <img src="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/cover.png">
+    <img src="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/cover.png" style="max-width: 600px">
 </a>
 
 ## Basic operations
