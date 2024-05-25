@@ -16,7 +16,7 @@ git clone https://app.beanhub.io/repos/{{ username }}/{{ project_slug }}.git
 
 The username is `{{ username }}` as your BeanHub account, and the password should be the access token's secret key value.
 
-You can modify your accounting book locally and push it to BeanHub. See what happens:
+You can modify your accounting book locally, commit and push it to BeanHub. See what happens:
 
 ```bash
 git push
@@ -28,9 +28,9 @@ Let's see what else you can achieve with it!
 
 ## Forms
 
-Input repetitive transactions are time-consuming and error-prone.
+Input repetitive transactions manually are time-consuming and error-prone.
 BeanHub allows you to define your custom forms for generating transactions.
-You can try it out by clicking the "Forms" button on the left-hand side menu, then clicking the form "Hours spent on XYZ contracting project," or simply [clicking here](/repos/{{ username }}/{{ project_slug }}/form/add-xyz-hours).
+You can try it out by clicking the **Forms** button on the left-hand side menu, then clicking the form **Hours spent on XYZ contracting project**, or simply [clicking here](/repos/{{ username }}/{{ project_slug }}/form/add-xyz-hours).
 
 TODO: insert form screenshot
 
@@ -46,13 +46,13 @@ TODO:
 
 Importing data from various sources, such as your bank or credit accounts, is one major pain point of using plain-text accounting books like Beancount.
 We made it easier than ever for you to import various sources with rule-based automation.
-You can download this sample CSV file by clicking the "Import" button on the left-hand side menu and then clicking "Upload Files."
+You can download this sample CSV file by clicking the **Import** button on the left-hand side menu and then clicking **Upload Files.**
 
 TODO:
 
-Then click "Upload file" and choose the CSV file you just downloaded then upload.
+Then click **Upload file** and choose the CSV file you just downloaded then upload.
 After that, you will be asked to review the uploaded file.
-Press the "Import" button, and here you go!
+Press the **Import** button, and here you go!
 
 TODO:
 
