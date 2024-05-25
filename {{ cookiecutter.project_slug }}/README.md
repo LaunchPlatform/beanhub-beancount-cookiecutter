@@ -101,4 +101,4 @@ More new features are coming soon:
 
 Hope you find BeanHub useful.
 We are working hard to add more features.
-If you have any questions about BeanHub or suggestions, please don't hesitate to contact us at support@beanhub.io.
+If you have any questions about BeanHub or suggestions, please don't hesitate to contact us at [support@beanhub.io](mailto:support@beanhub.io).
