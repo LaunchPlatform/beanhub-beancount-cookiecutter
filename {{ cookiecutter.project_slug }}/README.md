@@ -35,7 +35,7 @@ You can try it out by clicking the **Forms** button on the left-hand side menu, 
 
 TODO: insert form screenshot
 
-After you submit the form, a new transaction will be inserted based on your input.
+After you submit the form, a new transaction will be added in a Git commit based on your input.
 
 TODO:
 
