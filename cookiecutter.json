@@ -1,4 +1,5 @@
 {
   "project_slug": "mybooks",
+  "username": "myuser",
   "year": "{% now 'utc', '%Y' %}"
 }

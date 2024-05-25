@@ -1,20 +1,20 @@
 # {{ project_slug }}
 
-Hi there!
+Hi there! 😄👋
 
 Thank you for using BeanHub, and congratulations on creating your first BeanHub repository.
 There are many things you can do with BeanHub.
 
 ## Getting started
 
-First, to clone your repository locally, you can create an access token set with proper Git operation permissions on the access token management page.
+First, to clone your repository locally, you can create an access token set with proper Git operation permissions on the [access token management page](https://app.beanhub.io/access-tokens).
 Next, You can clone your repository locally by running:
 
 ```bash
-git clone FIXME
+git clone https://app.beanhub.io/repos/{{ username }}/{{ project_slug }}.git
 ```
 
-The username is the same as the one you used for your BeanHub account, and the password should be the access token's secret key value.
+The username is `{{ username }}` as your BeanHub account, and the password should be the access token's secret key value.
 
 You can modify your accounting book locally and push it to BeanHub. See what happens:
 
@@ -22,14 +22,17 @@ You can modify your accounting book locally and push it to BeanHub. See what hap
 git push
 ```
 
-After you push your changes to BeanHub, you can refresh the web pages of your BeanHub repository to see the up-to-date accounting book data. BeanHub is more than just a hosted Beancount based on Git. Let's see what else you can achieve with it!
+After you push your changes to BeanHub, you can refresh the web pages of your BeanHub repository to see the up-to-date accounting book data.
+BeanHub is more than just a hosted Beancount based on Git.
+Let's see what else you can achieve with it!
 
 ## Forms
 
-Input repetitive transactions are time-consuming and error-prone; BeanHub allows you to define your custom forms for generating transactions.
-You can try it out by clicking the "Forms" button on the left-hand side menu, then clicking the form "FIXME," or simply clicking here.
+Input repetitive transactions are time-consuming and error-prone.
+BeanHub allows you to define your custom forms for generating transactions.
+You can try it out by clicking the "Forms" button on the left-hand side menu, then clicking the form "Hours spent on XYZ contracting project," or simply [clicking here](/repos/{{ username }}/{{ project_slug }}/form/add-xyz-hours).
 
-TODO:
+TODO: insert form screenshot
 
 After you submit the form, a new transaction will be inserted based on your input.
 
