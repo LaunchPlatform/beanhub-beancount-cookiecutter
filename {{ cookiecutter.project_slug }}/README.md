@@ -84,7 +84,7 @@ To access the API, you need to create an access token on the access token manage
 Please read our blog article [New API access feature for reading and writing Beancount data easily](https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/) to learn more about it.
 
 <a href="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/">
-    <img src="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/">
+    <img src="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/cover.png">
 </a>
 
 ## Basic operations
