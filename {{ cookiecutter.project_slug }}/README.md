@@ -78,7 +78,7 @@ Have you ever wondered how cool it would be if you could read and write your Bea
 You are in luck.
 BeanHub provides a featureful API that allows you to access your accounting books.
 With this API, you can insert, update, or delete entries programmatically.
-You can read the API documents here.
+You can read the [API documents here](https://api.beanhub.io/redoc).
 To access the API, you need to create an access token on the access token management page here.
 
 Please read our blog article [New API access feature for reading and writing Beancount data easily](https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/) to learn more about it.
