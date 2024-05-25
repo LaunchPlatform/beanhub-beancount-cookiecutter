@@ -38,10 +38,10 @@ After you submit the form, a new transaction will be inserted based on your inpu
 
 TODO:
 
-Please read our blog article to learn more about it.
+Please read our blog article [Automating Beancount data input with custom forms makes your life 10 times easier!](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
 
 <a href="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/">
-    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png">
+    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png" style="max-width: 300px;">
 </a>
 
 ## Import
