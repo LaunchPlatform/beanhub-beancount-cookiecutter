@@ -59,7 +59,7 @@ BeanHub allows you to define your custom forms for generating transactions.
 We have already provided a sample form for you in the [.beanhub/forms.yaml file](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/forms.yaml).
 You can try it out by clicking the **Forms** button on the left-hand side menu, then clicking the form **Hours spent on XYZ contracting project**, or simply [clicking here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/form/add-xyz-hours).
 
-TODO: insert form screenshot
+<img src="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/custom-form.png" style="max-width: 600px">
 
 After you submit the form, a new transaction will be added in a Git commit based on your input.
 
