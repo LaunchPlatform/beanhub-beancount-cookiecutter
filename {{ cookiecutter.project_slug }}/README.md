@@ -51,22 +51,20 @@ Importing data from various sources, such as your bank or credit accounts, is on
 We made it easier than ever for you to import various sources with rule-based automation.
 We have already provided you a sample file at [.beanhub/imports.yaml](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/imports.yaml) in this repository.
 
+
 You can download this [sample CSV file here](#).
 To upload and import it, click the **Import** button on the left-hand side menu and then click **Upload Files**.
 Or you can [click here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/import/upload-files/master).
 
-You can download this sample CSV file by clicking the **Import** button on the left-hand side menu and then clicking **Upload Files.**
-
 TODO:
 
-Then click **Upload file** and choose the CSV file you just downloaded then upload.
-After that, you will be asked to review the uploaded file.
+Then, choose the CSV file you downloaded and press the upload button.
+After that, you will need to review the uploaded file.
 Press the **Import** button, and here you go!
 
 TODO:
 
-You just imported more transactions from the bank account CSV file with a few clicks!
-
+You just imported transactions from the bank account CSV file with a few clicks!
 Please read our blog article [FIXME](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
 
 <a href="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/">
