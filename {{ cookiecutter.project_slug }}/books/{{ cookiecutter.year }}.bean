@@ -1,10 +1,34 @@
+2024-01-01 * "Digital Ocean"
+  import-id: "import-data/mercury/2024.csv:-1"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                   -8.57 USD
+  Expenses:Engineering:ServiceSubscription                                  8.57 USD
+
+2024-01-03 * "Amazon Web Services"
+  import-id: "import-data/mercury/2024.csv:-3"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                 -853.64 USD
+  Expenses:Engineering:Servers:AWS                                        853.64 USD
+
+2024-01-03 * "Adobe"
+  import-id: "import-data/mercury/2024.csv:-2"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                  -54.99 USD
+  Expenses:Design:ServiceSubscription                                      54.99 USD
+
+2024-01-04 * "Gusto subscription fee"
+  import-id: "import-data/mercury/2024.csv:-4"
+  import-src: "import-data/mercury/2024.csv"
+  Assets:Bank:US:Mercury                                                     -46 USD
+  Expenses:Office:Supplies:SoftwareAsService                                  46 USD
+
 {% now 'utc' - 'days=7', '%Y-%m-%d' %} * "Initial checking account balance"
   Assets:Bank:US:Mercury:Checking                                       5,200.00 USD
   Equity:OpeningBalances
 
 {% now 'utc' - 'days=7', '%Y-%m-%d' %} * "Initial saving account balance"
   Assets:Bank:US:Mercury:Saving                                         1,500.00 USD
-  Equity:OpeningBalances          
+  Equity:OpeningBalances
 
 {% now 'utc' - 'days=6', '%Y-%m-%d' %} * "Monoline.io subscription fee"
   Liabilities:CreditCard:US:ChaseSapphirePreferred                         -2.49 USD
@@ -33,27 +57,3 @@
 {% now 'utc' - 'days=1', '%Y-%m-%d' %} * "Hours spent on the software development project for client XYZ"
   Assets:AccountsReceivable:Contracting:XYZ                                   13 XYZ.HOUR @ 200 USD
   Income:Contracting:XYZ
-
-2024-01-01 * "Digital Ocean"
-  import-id: "import-data/mercury/2024.csv:-1"
-  import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                                   -8.57 USD
-  Expenses:Engineering:ServiceSubscription                                  8.57 USD
-
-2024-01-03 * "Amazon Web Services"
-  import-id: "import-data/mercury/2024.csv:-3"
-  import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                                 -853.64 USD
-  Expenses:Engineering:Servers:AWS                                        853.64 USD
-
-2024-01-03 * "Adobe"
-  import-id: "import-data/mercury/2024.csv:-2"
-  import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                                  -54.99 USD
-  Expenses:Design:ServiceSubscription                                      54.99 USD
-
-2024-01-04 * "Gusto subscription fee"
-  import-id: "import-data/mercury/2024.csv:-4"
-  import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                                     -46 USD
-  Expenses:Office:Supplies:SoftwareAsService                                  46 USD
