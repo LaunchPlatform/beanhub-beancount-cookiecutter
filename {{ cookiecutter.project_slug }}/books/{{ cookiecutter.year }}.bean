@@ -8,15 +8,15 @@
 
 {% now 'utc' - 'days=6', '%Y-%m-%d' %} * "Monoline.io subscription fee"
   Liabilities:CreditCard:US:ChaseSapphirePreferred                         -2.49 USD
-  Expenses:Office:Supplies:SaaS
+  Expenses:Office:Supplies:SoftwareAsService
 
 {% now 'utc' - 'days=5', '%Y-%m-%d' %} * "PolisNetwork.io subscription fee"
   Liabilities:CreditCard:US:ChaseSapphirePreferred                        -14.99 USD
-  Expenses:Office:Supplies:SaaS
+  Expenses:Office:Supplies:SoftwareAsService
 
 {% now 'utc' - 'days=5', '%Y-%m-%d' %} * "BeanHub.io subscription fee"
   Liabilities:CreditCard:US:ChaseSapphirePreferred                         -9.00 USD
-  Expenses:Office:Supplies:SaaS
+  Expenses:Office:Supplies:SoftwareAsService
 
 {% now 'utc' - 'days=4', '%Y-%m-%d' %} * "Salary ACH deposit"
   Income:Salary                                                        -4,000.00 USD

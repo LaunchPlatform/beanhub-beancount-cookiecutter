@@ -17,10 +17,18 @@
 1970-01-01 open Expenses:Office:Supplies USD
 1970-01-01 open Expenses:Office:Supplies:Hardware USD
 1970-01-01 open Expenses:Office:Supplies:Software USD
-1970-01-01 open Expenses:Office:Supplies:SaaS USD
+2021-01-01 open Expenses:Office:Supplies:SoftwareAsService
+2021-01-01 open Expenses:Office:Supplies:EquipmentsForDevelopment
 1970-01-01 open Expenses:HealthInsurance USD
 1970-01-01 open Expenses:EmployeeSalary USD
 1970-01-01 open Expenses:Contractor USD
+2021-01-01 open Expenses:Engineering:Servers:AWS
+2021-01-01 open Expenses:Engineering:ServiceSubscription
+2021-01-01 open Expenses:Marketing:ServiceSubscription
+2021-01-01 open Expenses:Design:ServiceSubscription
+2021-01-01 open Expenses:Company:Tax:Federal:Y2023
+2021-01-01 open Expenses:Company:Tax:Federal:Y2024
+2021-01-01 open Expenses:Company:BusinessTravel
 
 * Income
 
