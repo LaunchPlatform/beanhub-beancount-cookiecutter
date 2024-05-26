@@ -46,9 +46,9 @@ Press the **Import** button, and here you go!
 TODO:
 
 You just imported transactions from the bank account CSV file with a few clicks!
-Please read our blog article [FIXME](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
+Please read our blog article [BeanHub Import - One small step closer to fully automating transaction importing](https://beanhub.io/blog/2024/05/27/introduction-of-beanhub-import/) to learn more about it.
 
-<a href="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/">
+<a href="https://beanhub.io/blog/2024/05/27/introduction-of-beanhub-import/">
     <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png" style="max-width: 600px">
 </a>
 

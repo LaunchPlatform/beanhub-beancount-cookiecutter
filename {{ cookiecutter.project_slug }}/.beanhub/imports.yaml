@@ -87,7 +87,7 @@ imports:
             - account: "Assets:AccountsReceivable:Contracting:XYZ"
               amount:
                 number: "{{ -amount / 300 }}"
-                currency: "XYZ.WORK_HOUR"
+                currency: "XYZ.HOUR"
               price:
                 number: "300.0"
                 currency: "USD"
