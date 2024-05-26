@@ -36,13 +36,13 @@ You can download this [sample CSV file here](https://github.com/LaunchPlatform/b
 To upload and import it, click the **Import** button on the left-hand side menu and then click **Upload Files**.
 Or you can [click here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/import/upload-files/master).
 
-<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/b008d689749fd97b3e1d0c2fba83f1af9bd44268/assets/upload-files-screenshot.png?raw=true" style="max-width: 600px">
+<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/0dd754e737deb6db6a6e32fd89e7cd986319a4cc/assets/upload-files-screenshot.png?raw=true" style="max-width: 600px">
 
 Then, choose the CSV file you downloaded and press the upload button.
 After that, you will need to review the uploaded file.
 Press the **Import** button, and here you go!
 
-<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/b008d689749fd97b3e1d0c2fba83f1af9bd44268/assets/upload-file-review-screenshot.png?raw=true" style="max-width: 600px">
+<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/0dd754e737deb6db6a6e32fd89e7cd986319a4cc/assets/upload-file-review-screenshot.png?raw=true" style="max-width: 600px">
 
 You just imported transactions from the bank account CSV file with a few clicks!
 Please read our blog article [BeanHub Import - One small step closer to fully automating transaction importing](https://beanhub.io/blog/2024/05/27/introduction-of-beanhub-import/) to learn more about it.
@@ -58,11 +58,11 @@ BeanHub allows you to define your custom forms for generating transactions.
 We have already provided a sample form for you in the [.beanhub/forms.yaml file](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/blob/master/.beanhub/forms.yaml).
 You can try it out by clicking the **Forms** button on the left-hand side menu, then clicking the form **Hours spent on XYZ contracting project**, or simply [clicking here](/repos/{{ cookiecutter.username }}/{{ cookiecutter.project_slug }}/form/add-xyz-hours).
 
-<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/b008d689749fd97b3e1d0c2fba83f1af9bd44268/assets/beanhub-form-screenshot.png?raw=true" style="max-width: 600px">
+<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/0dd754e737deb6db6a6e32fd89e7cd986319a4cc/assets/beanhub-form-screenshot.png?raw=true" style="max-width: 600px">
 
 After you submit the form, a new transaction will be added in a Git commit based on your input.
 
-<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/b008d689749fd97b3e1d0c2fba83f1af9bd44268/assets/beanhub-form-git-diff.png?raw=true" style="max-width: 600px">
+<img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/0dd754e737deb6db6a6e32fd89e7cd986319a4cc/assets/beanhub-form-git-diff.png?raw=true" style="max-width: 600px">
 
 Please read our blog article [Automating Beancount data input with custom forms makes your life 10 times easier!](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
 
