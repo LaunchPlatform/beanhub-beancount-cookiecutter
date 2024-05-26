@@ -84,7 +84,7 @@ imports:
       - txn:
           narration: "Receive payment from XYZ"
           postings:
-            - account: "Assets:AccountsReceivable:XYZContracting"
+            - account: "Assets:AccountsReceivable:Contracting:XYZ"
               amount:
                 number: "{{ -amount / 300 }}"
                 currency: "XYZ.WORK_HOUR"
