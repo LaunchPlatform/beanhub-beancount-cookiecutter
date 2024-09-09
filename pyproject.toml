@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "beanhub-beancount-cookiecutter"
-version = "0.2.0"
+version = "0.2.1"
 description = ""
 authors = ["Fang-Pen Lin <fangpen@launchplatform.com>"]
 license = "MIT"
