@@ -8,6 +8,7 @@ There are many things you can do with BeanHub.
 ## Getting started
 
 First, to clone your repository locally, you can create an access token set with proper Git operation permissions on the [access token management page](https://app.beanhub.io/access-tokens).
+See the [Access tokens](https://docs.beanhub.io/guides/access-tokens/) and [Git over HTTPS](https://docs.beanhub.io/guides/git/) guides.
 Next, You can clone your repository locally by running:
 
 ```bash
@@ -45,11 +46,7 @@ Press the **Import** button, and here you go!
 <img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/0dd754e737deb6db6a6e32fd89e7cd986319a4cc/assets/upload-file-review-screenshot.png?raw=true" style="max-width: 600px">
 
 You just imported transactions from the bank account CSV file with a few clicks!
-Please read our blog article [BeanHub Import - One small step closer to fully automating transaction importing](https://beanhub.io/blog/2024/05/27/introduction-of-beanhub-import/) to learn more about it.
-
-<a href="https://beanhub.io/blog/2024/05/27/introduction-of-beanhub-import/">
-    <img src="https://beanhub.io/blog/2024/05/27/introduction-of-beanhub-import/cover.png" style="max-width: 600px">
-</a>
+Please read the [Import transactions](https://docs.beanhub.io/guides/import/) guide to learn more.
 
 ## Forms
 
@@ -64,11 +61,7 @@ After you submit the form, a new transaction will be added in a Git commit based
 
 <img src="https://github.com/LaunchPlatform/beanhub-beancount-cookiecutter/blob/0dd754e737deb6db6a6e32fd89e7cd986319a4cc/assets/beanhub-form-git-diff.png?raw=true" style="max-width: 600px">
 
-Please read our blog article [Automating Beancount data input with custom forms makes your life 10 times easier!](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) to learn more about it.
-
-<a href="https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/">
-    <img src="http://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/cover.png" style="max-width: 600px">
-</a>
+Please read the [Custom forms](https://docs.beanhub.io/guides/forms/) guide to learn more.
 
 
 ## API Access
@@ -77,14 +70,19 @@ Have you ever wondered how cool it would be if you could read and write your Bea
 You are in luck.
 BeanHub provides a featureful API that allows you to access your accounting books.
 With this API, you can insert, update, or delete entries programmatically.
-You can read the [API documents here](https://api.beanhub.io/redoc).
-To access the API, you need to create an access token on the access token management page here.
+You can read the [API overview](https://docs.beanhub.io/api/overview/) and the [API documents here](https://api.beanhub.io/redoc).
+To access the API, you need to create an access token on the [access token management page](https://app.beanhub.io/access-tokens/). See the [Access tokens](https://docs.beanhub.io/guides/access-tokens/) guide.
 
-Please read our blog article [New API access feature for reading and writing Beancount data easily](https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/) to learn more about it.
+## MCP
 
-<a href="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/">
-    <img src="https://beanhub.io/blog/2023/08/28/announcement-of-the-new-api-feature/cover.png" style="max-width: 600px">
-</a>
+You can connect an AI app to this book with [MCP](https://modelcontextprotocol.io/) (Model Context Protocol).
+Enable it on the [MCP settings](https://app.beanhub.io/mcp/) page, then paste `https://api.beanhub.io/mcp` into the app (ChatGPT, Claude, Cursor, and others).
+The app signs in with OAuth. Do not paste an access token.
+
+New connections start read-only. You pick which books the app can see, and you can allow updates later.
+AI models can generate incorrect results. Check numbers and any proposed book changes before you rely on them.
+
+Please read the [Connect an AI app with MCP](https://docs.beanhub.io/guides/mcp/) guide to learn more.
 
 ## Basic operations
 
