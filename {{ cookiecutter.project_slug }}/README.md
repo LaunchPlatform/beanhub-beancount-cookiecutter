@@ -73,6 +73,17 @@ With this API, you can insert, update, or delete entries programmatically.
 You can read the [API overview](https://docs.beanhub.io/api/overview/) and the [API documents here](https://api.beanhub.io/redoc).
 To access the API, you need to create an access token on the [access token management page](https://app.beanhub.io/access-tokens/). See the [Access tokens](https://docs.beanhub.io/guides/access-tokens/) guide.
 
+## MCP
+
+You can connect an AI app to this book with [MCP](https://modelcontextprotocol.io/) (Model Context Protocol).
+Enable it on the [MCP settings](https://app.beanhub.io/mcp/) page, then paste `https://api.beanhub.io/mcp` into the app (ChatGPT, Claude, Cursor, and others).
+The app signs in with OAuth. Do not paste an access token.
+
+New connections start read-only. You pick which books the app can see, and you can allow updates later.
+AI models can generate incorrect results. Check numbers and any proposed book changes before you rely on them.
+
+Please read the [Connect an AI app with MCP](https://docs.beanhub.io/guides/mcp/) guide to learn more.
+
 ## Basic operations
 
 In addition to the powerful custom form and import data feature, we also provide basic Beancount operations, such as adding new transactions.
